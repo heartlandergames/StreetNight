@@ -70,3 +70,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# Unity Player Database Bullshit
+#==============================
+*.pdb
