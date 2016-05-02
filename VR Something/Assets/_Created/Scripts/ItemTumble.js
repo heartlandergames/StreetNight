@@ -13,7 +13,7 @@ function Start () {
 }
 
 function LateUpdate () {
-    gameObject.GetComponent(Rigidbody).AddForce(Vector3(-50,0,0), ForceMode.Acceleration);
+    gameObject.GetComponent(Rigidbody).AddForce(Vector3(-30,0,0), ForceMode.Acceleration);
 }
 
 function OnCollisionEnter(col : Collision)
